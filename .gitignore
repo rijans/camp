@@ -1,6 +1,14 @@
 # Created by https://www.gitignore.io/api/git,laravel,notepadpp,sublimetext,phpstorm+all,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=git,laravel,notepadpp,sublimetext,phpstorm+all,visualstudiocode
 
+### Composer ###
+composer.phar
+/vendor/
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+composer.lock
+
 ### Git ###
 # Created by git for backups. To disable backups in Git:
 # $ git config --global mergetool.keepBackup false
@@ -17,7 +25,7 @@
 *_REMOTE_*.txt
 
 ### Laravel ###
-/vendor/
+#/vendor/
 vendor/
 node_modules/
 npm-debug.log
